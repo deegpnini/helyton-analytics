@@ -406,3 +406,21 @@ footer strong { color: var(--accent-soft); }
   height: 100%;
   border: none;
 }
+
+/* Ajuste para focar no rosto */
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* Truque de responsividade para o Drive Player */
+@media (max-width: 600px) {
+  .video-container {
+    aspect-ratio: auto;
+    height: 450px; /* Caixa mais alta no celular */
+  }
+}
