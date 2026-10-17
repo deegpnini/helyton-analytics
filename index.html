@@ -3,84 +3,131 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Helyton Ronchi — AI & Data Analysis Portfolio</title>
-  <meta name="description" content="Portfolio of Helyton Ronchi — AI & Predictive Analytics student at SCTEC/SENAI.">
+  <title>Helyton Ronchi — AI & Predictive Analytics</title>
+  <meta name="description" content="AI & Predictive Analytics student at SENAI/SCTEC. Building ARCTURUS CLIMATIK (flood early-warning), sales analytics pipeline and health data projects. From 20 years in construction to data.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Helyton Ronchi — AI & Predictive Analytics">
+  <meta property="og:description" content="Flood early-warning system (ARCTURUS), sales pipeline and mental-health data project. SENAI/SCTEC student transitioning from 20 years in construction.">
+  <meta property="og:url" content="https://deegpnini.github.io/portfolio-helyton">
+  <meta property="og:image" content="https://deegpnini.github.io/portfolio-helyton/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Helyton Ronchi — AI & Predictive Analytics">
+  <meta name="twitter:description" content="Flood early-warning system, sales analytics and health data projects. SENAI/SCTEC student.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <header class="hero">
     <div class="container">
       <h1>Helyton Ronchi</h1>
       <p class="subtitle">AI &amp; Predictive Analytics Student</p>
-      <p class="tagline">Technology with soul, data with purpose, code with heart.</p>
+      <p class="tagline">From construction sites to data pipelines — building real solutions with Python and Machine Learning.</p>
       <div class="hero-links">
-        <a href="https://github.com/deegpnini" target="_blank">GitHub</a>
-        <a href="https://linkedin.com/in/helytonronchi" target="_blank">LinkedIn</a>
-        <a href="https://drive.google.com/file/d/1MXfMsA1mOgqbAqCtWXSjy-Qd0pOp3d3f/view" target="_blank">Video Résumé</a>
+        <a href="https://github.com/deegpnini" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://linkedin.com/in/helytonronchi" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:deepg.nini@gmail.com">Email</a>
+        <a href="https://drive.google.com/file/d/1MXfMsA1mOgqbAqCtWXSjy-Qd0pOp3d3f/view" target="_blank" rel="noopener">Video Résumé</a>
       </div>
     </div>
   </header>
+
   <main>
+
     <section class="about">
       <div class="container">
         <h2>About</h2>
-        <p>AI and Predictive Analytics student at SENAI/SCTEC with hands-on experience in Python, data analysis, and machine learning. Currently developing <strong>ARCTURUS CLIMATIK</strong>, a flood early-warning system for Santa Catarina, validated across 27 historical events. Passionate about building real-world data solutions with social impact.</p>
+        <p>AI and Predictive Analytics student at <strong>SENAI/SCTEC</strong> (Santa Catarina, Brazil). After 20 years working as a painter and electrician, I returned to school in 2026 to build a career in data and AI.</p>
+        <p>Currently developing <strong>ARCTURUS CLIMATIK</strong>, a flood early-warning system for Santa Catarina validated across 27 historical events. I focus on real problems, clean code, and measurable results.</p>
       </div>
     </section>
+
+    <section class="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Languages</h3>
+            <p>Python (NumPy, Pandas)<br>HTML, CSS (basics)</p>
+          </div>
+          <div class="skill-card">
+            <h3>Data</h3>
+            <p>Analysis &amp; Cleaning<br>Feature Engineering<br>Visualization</p>
+          </div>
+          <div class="skill-card">
+            <h3>Machine Learning</h3>
+            <p>LightGBM<br>Model Validation (LOEO)<br>Predictive Modeling</p>
+          </div>
+          <div class="skill-card">
+            <h3>Tools</h3>
+            <p>Git, GitHub<br>VS Code, Jupyter<br>Google Colab</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="projects">
       <div class="container">
         <h2>Projects</h2>
+
         <article class="project">
           <h3>ARCTURUS CLIMATIK <span class="badge">IN DEVELOPMENT</span></h3>
-          <p class="project-desc">Flood early-warning system for Santa Catarina, Brazil. LightGBM model (26 features) predicting river level at 1h / 3h / 6h horizons in the Tubarão basin.</p>
+          <p class="project-desc">Flood early-warning system for Santa Catarina, Brazil. LightGBM model with 26 features predicting river levels at 1h / 3h / 6h horizons in the Tubarão basin.</p>
           <ul class="project-metrics">
-            <li>LOEO backtest: <strong>12.4% / 12.0% / 25.8%</strong> gain over persistence (27 events)</li>
-            <li>Data: ANA, INMET, EPAGRI — SHA-256 reproducibility manifest</li>
+            <li><strong>LOEO backtest (27 flood events):</strong> +12.4% / +12.0% / +25.8% improvement over a persistence baseline at 1h / 3h / 6h horizons</li>
+            <li>Real data from ANA, INMET and EPAGRI</li>
+            <li>Production models with SHA-256 reproducibility manifest</li>
           </ul>
-          <a class="project-link" href="https://github.com/deegpnini/ARCTURUS_CLIMATIK" target="_blank">View on GitHub →</a>
+          <a class="project-link" href="https://github.com/deegpnini/ARCTURUS_CLIMATIK" target="_blank" rel="noopener">View on GitHub →</a>
         </article>
+
         <article class="project">
           <h3>SalesInsight PY <span class="badge completed">COMPLETED</span></h3>
-          <p class="project-desc">Pure Python pipeline: cleaning, transformation, analysis (400 records). Custom SVG charts + static HTML dashboard — no external libraries.</p>
-          <a class="project-link" href="https://github.com/deegpnini/salesinsight-py" target="_blank">View on GitHub →</a>
+          <p class="project-desc">Complete sales analytics pipeline built in pure Python (standard library only). Handles cleaning, transformation and analysis of 400 records, generating custom SVG charts and a static HTML dashboard with no external libraries.</p>
+          <a class="project-link" href="https://github.com/deegpnini/salesinsight-py" target="_blank" rel="noopener">View on GitHub →</a>
         </article>
+
         <article class="project">
           <h3>Conecta SC Saúde <span class="badge mvp">MVP</span></h3>
-          <p class="project-desc">Prototype for mental health bed regulation, using 24,910 psychiatric hospitalization records (SIH/SUS, 2024–2026).</p>
-          <a class="project-link" href="https://github.com/deegpnini/Conecta-SC-Saude-CSCS" target="_blank">View on GitHub →</a>
+          <p class="project-desc">Functional prototype for mental health bed regulation using 24,910 psychiatric hospitalization records from the Brazilian Public Health System (SIH/SUS, 2024–2026).</p>
+          <a class="project-link" href="https://github.com/deegpnini/Conecta-SC-Saude-CSCS" target="_blank" rel="noopener">View on GitHub →</a>
         </article>
+
       </div>
     </section>
+
     <section class="video">
       <div class="container">
         <h2>Video Résumé</h2>
-        <p class="video-desc">A short introduction in English — from a 20-year background in painting, electrical work, and civil construction, to AI and data analysis.</p>
+        <p class="video-desc">A short introduction in English — from 20 years in painting, electrical work and civil construction to AI and data analysis.</p>
         <div class="video-wrapper">
-          <iframe src="https://drive.google.com/file/d/1MXfMsA1mOgqbAqCtWXSjy-Qd0pOp3d3f/preview" title="Video Résumé" frameborder="0" allowfullscreen></iframe>
+          <iframe src="https://drive.google.com/file/d/1MXfMsA1mOgqbAqCtWXSjy-Qd0pOp3d3f/preview" title="Video Résumé - Helyton Ronchi" allow="autoplay" allowfullscreen></iframe>
         </div>
       </div>
     </section>
+
     <section class="resume">
       <div class="container">
         <h2>Résumé</h2>
-        <p>Full resume available in PDF format.</p>
+        <p>Full résumé available in PDF format (English).</p>
         <div class="resume-links">
-          <a class="btn" href="https://drive.google.com/file/d/1G5lVGGMZ5vMDZEhoPE3S2xKKL1FYoeKE/view" target="_blank">Open on Drive</a>
-          <a class="btn outline" href="assets/curriculo.pdf" download>Download PDF</a>
+          <a class="btn" href="https://drive.google.com/file/d/1G5lVGGMZ5vMDZEhoPE3S2xKKL1FYoeKE/view" target="_blank" rel="noopener">Open on Google Drive</a>
         </div>
       </div>
     </section>
+
   </main>
+
   <footer>
     <div class="container">
       <p><strong>N.E.X.U.S. OIKOS</strong> — Where doubt becomes investigation.</p>
       <p class="footer-links">
-        <a href="https://github.com/deegpnini" target="_blank">GitHub</a> ·
-        <a href="https://linkedin.com/in/helytonronchi" target="_blank">LinkedIn</a> ·
+        <a href="https://github.com/deegpnini" target="_blank" rel="noopener">GitHub</a> ·
+        <a href="https://linkedin.com/in/helytonronchi" target="_blank" rel="noopener">LinkedIn</a> ·
         <a href="mailto:deepg.nini@gmail.com">Email</a>
       </p>
       <p class="footer-meta">São Ludgero, SC — Brazil · 2026</p>
     </div>
   </footer>
+
 </body>
 </html>
