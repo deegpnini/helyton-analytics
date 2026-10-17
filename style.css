@@ -449,29 +449,8 @@ footer strong { color: var(--accent-soft); }
   border: none;
 }
 
-/* Container Vertical 9:16 (Shorts/Reels) */
-.video-container-vertical {
-  position: relative;
-  width: 100%;
-  max-width: 320px; /* Largura elegante para PC e Celular */
-  padding-top: 177.78%; /* Fórmula mágica: 16/9 * 100% (fallback) */
-  margin: 1.5rem auto; /* Centraliza */
-  border-radius: 16px;
-  overflow: hidden;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
-  background: #000;
-  border: 1px solid var(--border);
-  transition: border-color 0.3s ease;
-}
 
-.video-container-vertical:hover {
-  border-color: var(--accent);
-}
 
-.video-container-vertical iframe, 
-.video-container-vertical video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border: none;
-}
+
+
+
