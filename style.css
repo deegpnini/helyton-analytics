@@ -363,3 +363,18 @@ footer strong { color: var(--accent-soft); }
 @media (max-width: 400px) {
   .skills-grid { grid-template-columns: 1fr; }
 }
+
+/* ===== ACESSIBILIDADE — fallback animações ===== */
+@media (prefers-reduced-motion: reduce) {
+  .anim {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+.no-js .anim {
+  opacity: 1 !important;
+  transform: none !important;
+}
