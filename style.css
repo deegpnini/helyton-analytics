@@ -424,3 +424,27 @@ footer strong { color: var(--accent-soft); }
     height: 450px; /* Caixa mais alta no celular */
   }
 }
+
+/* Player de Vídeo Vertical (Shorts 9:16) */
+.video-container {
+  width: 100%;
+  max-width: 340px; /* Largura ideal para caber em qualquer tela */
+  aspect-ratio: 9 / 16; /* Formato vertical exato */
+  margin: 0 auto; /* Centraliza no meio da tela */
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  overflow: hidden;
+  background: var(--bg-card);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+  transition: border-color 0.3s ease;
+}
+
+.video-container:hover {
+  border-color: var(--accent);
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
