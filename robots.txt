@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://deegpnini.github.io/portfolio-helyton/sitemap.xml
