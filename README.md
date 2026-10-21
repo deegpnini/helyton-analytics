@@ -11,7 +11,7 @@ AI and Predictive Analytics student with hands-on experience in Python, data ana
 ## Projects featured
 
 - **ARCTURUS CLIMATIK** — Flood early-warning system (LightGBM, 26 features)
-- **SalesInsight PY** — Sales analytics pipeline (pure Python)
+- **ARC.BI.Sales.Insight** — Sales analytics pipeline (pure Python)
 - **Conecta SC Saúde** — Mental health bed regulation (MVP)
 
 ## Tech stack
@@ -28,4 +28,4 @@ AI and Predictive Analytics student with hands-on experience in Python, data ana
 
 **N.E.X.U.S. OIKOS** — *Where doubt becomes investigation.*
 
-*Technology with soul, data with purpose, code with heart.*
+**
