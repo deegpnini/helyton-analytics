@@ -2,7 +2,7 @@
 
 Personal portfolio website for **Helyton Ronchi** — AI & Predictive Analytics student at SCTEC/SENAI (Santa Catarina, Brazil).
 
-🌐 **Live:** [deegpnini.github.io/portfolio-helyton](https://deegpnini.github.io/portfolio-helyton)
+Live: [deegpnini.github.io/helyton-analytics](https://deegpnini.github.io/helyton-analytics/)
 
 ## About
 
